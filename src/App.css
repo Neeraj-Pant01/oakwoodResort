@@ -1,0 +1,31 @@
+.carousel-controls button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.carousel-control-prev {
+  left: 10px; /* Adjust the positioning as needed */
+}
+
+.carousel-control-next {
+  right: 10px; /* Adjust the positioning as needed */
+}
+/* Custom styles for the carousel indicators */
+.carousel .carousel-indicators li {
+  background-color: blue; /* Change to your desired color */
+  border-color: blue; /* Change to your desired color */
+}
+.carousel .carousel-slider .control-dots .dot {
+  background-color: red;
+}
+
+
+/* Custom style for the active carousel indicator */
+.carousel .carousel-indicators .active {
+  background-color: red; /* Change to your desired color */
+  border-color: red; /* Change to your desired color */
+}
+
+

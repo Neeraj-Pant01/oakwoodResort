@@ -1,0 +1,46 @@
+.carousel-item-container {
+    position: relative;
+    /* width: 100dvh; */
+    height: 75vh;
+  }
+  
+  .carousel-item-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); Adjust opacity as needed */
+    z-index: 1;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  
+
+  .custom-btn {
+    background-color:#FEA116; /* Dark color of your choice */
+    border-color: #FEA116; /* Match border color with background color */
+    color: #ffffff; /* Text color */
+  }
+  
+  .custom-btn:hover {
+    background-color: #FEA116; /* Darker color on hover */
+    border-color: #FEA116; /* Match border color with background color */
+    color: #ffffff; /* Text color */
+  }
+  .styled-button{
+    border: 1px solid #FEA116;
+    color: #FEA116;
+
+  }
+  .styled-button:hover{
+    background: #FEA116;
+    color: #ffffff;
+  }
