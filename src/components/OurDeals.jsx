@@ -1,19 +1,11 @@
-import  { useEffect } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import WOW from 'wowjs';
+
+import { Container, Row, Col } from 'react-bootstrap'
 import { IoStar } from "react-icons/io5";
 import { MdAccessTimeFilled } from "react-icons/md";
 import { FaUser } from "react-icons/fa";
 import { FaRupeeSign } from 'react-icons/fa';
 const OurDeals = () => {
-  useEffect(() => {
-    // Initialize WOW.js
-    const wow = new WOW.WOW({
-      live: false,
-    });
-    wow.init();
-  }, []);
-
+  
   return (
     <div className="container-xxl py-5">
       <Container>
