@@ -1,13 +1,11 @@
-
 import { AiFillStar } from "react-icons/ai"
-
 const UserRev = () => {
     return (
         <div className='flex flex-col w-full md:w-[45%] gap-3 mt-10'>
             <div className="flex gap-1">
                 {
                     Array(5).fill().map((_, i) => 
-                    <AiFillStar className='text-[#835656]'/>
+                    <AiFillStar key={i} className='text-[#835656]'/>
                     )
                 }
             </div>
