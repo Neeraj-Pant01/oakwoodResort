@@ -1,0 +1,29 @@
+
+.animate{
+    animation: naim .5s ease-in-out;
+}
+
+@keyframes naim{
+    0%{
+        transform: translateX(100%);
+        color: red;
+    }
+    100%{
+        transform: translateX(0%);
+        color: red;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .u-rev{
+    padding: 0px 20px;
+    color: red;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .u-rev{
+    padding: 0px 80px;
+    color: red;
+    }
+}

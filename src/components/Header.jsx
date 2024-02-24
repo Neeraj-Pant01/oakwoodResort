@@ -85,7 +85,7 @@ const Header = ({ openMenu, setOpenMenu }) => {
                 <h1 className='md:text-5xl text-2xl text-[white] text-center font-bold'>Enjoy Your Vacation With Us</h1>
                 <p className='text-[lightgrey] text-center mt-3 text-xl'>Tempor erat elitr rebum at clita diam amet diam et eos erat ipsum lorem sit</p>
                 <div className='flex md:px-4 px-2 md:py-3 rounded-full border md:w-[60%] self-center ml-auto mr-auto bg-[white] items-center justify-between mb-4 w-[80%] py-1 mt-5'>
-                    <input className='border-none' type='text' placeholder='search here...' />
+                    <input className='border-none flex-1 md:px-6' type='text' placeholder='search here...' />
                     <button className='btn custom-btn rounded-full md:px-4'>Search</button>
                 </div>
             </div>

@@ -1,20 +1,47 @@
 import { AiFillStar } from "react-icons/ai"
-const UserRev = () => {
+import "./style.css"
+import { revData } from "../pages/data"
+import { useEffect, useState } from "react"
+import "./style.css"
+
+const UserRev = ({index}) => {
+
+    const [animation, setAnimation] = useState(false)
+
+    useEffect(()=>{
+        setAnimation(true);
+
+        const timeout = setTimeout(() => {
+            setAnimation(false)
+        }, 1000);
+
+        return () =>{
+            clearTimeout(timeout)
+        }
+    },[index])
+
     return (
-        <div className='flex flex-col w-full md:w-[45%] gap-3 mt-10'>
-            <div className="flex gap-1">
+        <div className={`${animation ? 'animate' : ''} flex flex-col md:flex-row md:w-[100%] gap-3 mt-10 items-center justify-center`}>
+            <div className="w-[500px]">
+            {/* <div className="flex gap-1 items-center justify-center mb-2">
                 {
                     Array(5).fill().map((_, i) => 
                     <AiFillStar key={i} className='text-[#835656]'/>
                     )
                 }
-            </div>
-            <p className='text-sm font-extralight md:text-[16px] text-[black] leading-7'>
-            Oakwood Resort is the perfect getaway for nature lovers. The trekking trails were breathtaking, and the bird watching was incredible. The resort's luxurious amenities and incredible hospitality made our stay unforgettable.
+            </div> */}
+            <p className='u-rev text-sm md:text-[21px] text-center font-semibold md:px-0 text-[rgba(0,0,0,0.7)] leading-7'>
+                " &nbsp;
+                {
+                    revData[index].rev
+                }
+                &nbsp;
+                "
             </p>
-            <div className='flex items-center gap-3'>
-                <img className='w-[45px] h-[45px] rounded-full' src="https://a.storyblok.com/f/191576/1200x800/215e59568f/round_profil_picture_after_.webp" alt='' />
-                <h1 className='text-[#FEA116] md:text-[18px] text-[16px]'>USER USERNAME</h1>
+            </div>
+            <div className='flex w-[400px] flex-col items-center gap-3'>
+                <img className='w-[100px] h-[100px] md:w-[200px] md:h-[200px] rounded-full' src={revData[index].picture} alt='' />
+                <h1 className='text-[#FEA116] md:text-[18px] font-semibold mb-4 text-[16px] md:mb-0'>{revData[index].username}</h1>
             </div>
         </div>
     )
