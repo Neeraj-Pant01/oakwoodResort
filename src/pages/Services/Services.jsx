@@ -36,7 +36,7 @@ const Services = () => {
                     <div style={{marginBottom:'1.5rem',display:'flex',justifyContent:"center",padding:'5px',alignItems:"center",border:"1px solid #dee2e6"}}>
                     <IoFishSharp className="icon" style={{padding:'5px',color:'#FEA116',fontSize:'50px',border:"1px solid #dee2e6"}}/>
                     </div>
-                    <h5 className="card-title" style={{fontSize:"20px",fontWeight:"600"}}>Camp fire</h5>
+                    <h5 className="card-title" style={{fontSize:"20px",fontWeight:"600"}}>Rainbow Trout Fish </h5>
                     <p className="card-text" style={{padding:'15px',color:"gray",textAlign:"justify"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem similique, fuga accusamus, magni reiciendis veniam voluptas tempore aliquam consequatur dolorum aspernatur quasi nostrum vel ab ad placeat libero incidunt harum.</p>
                 </div>
             </div>
@@ -50,7 +50,7 @@ const Services = () => {
                     <div style={{marginBottom:'1.5rem',display:'flex',justifyContent:"center",padding:'5px',alignItems:"center",border:"1px solid #dee2e6"}}>
                     <GiForestCamp className="icon" style={{padding:'5px',color:'#FEA116',fontSize:'50px',border:"1px solid #dee2e6"}}/>
                     </div>
-                    <h5 className="card-title" style={{fontSize:"20px",fontWeight:"600"}}>Camp fire</h5>
+                    <h5 className="card-title" style={{fontSize:"20px",fontWeight:"600"}}>Camping</h5>
                     <p className="card-text" style={{padding:'15px',color:"gray",textAlign:"justify"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem similique, fuga accusamus, magni reiciendis veniam voluptas tempore aliquam consequatur dolorum aspernatur quasi nostrum vel ab ad placeat libero incidunt harum.</p>
                 </div>
             </div>
@@ -64,7 +64,7 @@ const Services = () => {
                     <div style={{marginBottom:'1.5rem',display:'flex',justifyContent:"center",padding:'5px',alignItems:"center",border:"1px solid #dee2e6"}}>
                     <GiCottonFlower className="icon" style={{padding:'5px',color:'#FEA116',fontSize:'50px',border:"1px solid #dee2e6"}}/>
                     </div>
-                    <h5 className="card-title" style={{fontSize:"20px",fontWeight:"600"}}>Camp fire</h5>
+                    <h5 className="card-title" style={{fontSize:"20px",fontWeight:"600"}}>Orchid</h5>
                     <p className="card-text" style={{padding:'15px',color:"gray",textAlign:"justify"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem similique, fuga accusamus, magni reiciendis veniam voluptas tempore aliquam consequatur dolorum aspernatur quasi nostrum vel ab ad placeat libero incidunt harum.</p>
                 </div>
             </div>
@@ -78,7 +78,7 @@ const Services = () => {
                     <div style={{marginBottom:'1.5rem',display:'flex',justifyContent:"center",padding:'5px',alignItems:"center",border:"1px solid #dee2e6"}}>
                     <GiHummingbird className="icon" style={{padding:'5px',color:'#FEA116',fontSize:'50px',border:"1px solid #dee2e6"}}/>
                     </div>
-                    <h5 className="card-title" style={{fontSize:"20px",fontWeight:"600"}}>Camp fire</h5>
+                    <h5 className="card-title" style={{fontSize:"20px",fontWeight:"600"}}>Bird Watching</h5>
                     <p className="card-text" style={{padding:'15px',color:"gray",textAlign:"justify"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem similique, fuga accusamus, magni reiciendis veniam voluptas tempore aliquam consequatur dolorum aspernatur quasi nostrum vel ab ad placeat libero incidunt harum.</p>
                 </div>
             </div>
@@ -92,7 +92,7 @@ const Services = () => {
                     <div style={{marginBottom:'1.5rem',display:'flex',justifyContent:"center",padding:'5px',alignItems:"center",border:"1px solid #dee2e6"}}>
                     <GiMountainClimbing  className="icon" style={{padding:'5px',color:'#FEA116',fontSize:'50px',border:"1px solid #dee2e6"}}/>
                     </div>
-                    <h5 className="card-title" style={{fontSize:"20px",fontWeight:"600"}}>Camp fire</h5>
+                    <h5 className="card-title" style={{fontSize:"20px",fontWeight:"600"}}>Treeking</h5>
                     <p className="card-text" style={{padding:'15px',color:"gray",textAlign:"justify"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem similique, fuga accusamus, magni reiciendis veniam voluptas tempore aliquam consequatur dolorum aspernatur quasi nostrum vel ab ad placeat libero incidunt harum.</p>
                 </div>
             </div>
@@ -103,6 +103,7 @@ const Services = () => {
     </div>
 </div>
      </div>
+
     </div>
   )
 }
