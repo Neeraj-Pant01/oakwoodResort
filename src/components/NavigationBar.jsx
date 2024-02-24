@@ -24,7 +24,7 @@ const NavigationBar = ({active}) => {
     </div>
     <div className="d-flex w-100 justify-content-center gap-5 mt-4">
      <Link to={'/'} style={{color:'gray',fontSize:'16px'}}>Home</Link>
-     <Link style={{color:'gray',fontSize:'16px'}}>Services</Link>
+     <Link to="/servies" style={{color:'gray',fontSize:'16px'}}>Services</Link>
      <Link to={'/contact'} style={{color:'gray',fontSize:'16px'}}>Contact Us</Link>
      <Link to="/about-us" style={{color:'gray',fontSize:'16px'}}>About Us</Link>
     </div>

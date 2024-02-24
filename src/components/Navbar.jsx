@@ -51,7 +51,7 @@ const Navbar = ({active,openMenu,setOpenMenu}) => {
 
   return (
     <>
-    <div className={`container-fluid bg-dark px-5 d-none d-lg-block ${pathname !== '/' && 'd-none'}`}>
+    <div className={`container-fluid px-5 d-none d-lg-block ${pathname !== '/' && 'd-none'}`} style={{background:'#0F172B'}}>
         <div className="row gx-0">
             <div className="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div className="d-inline-flex align-items-center" style={{ height: '45px' }}>
@@ -61,12 +61,12 @@ const Navbar = ({active,openMenu,setOpenMenu}) => {
                 </div>
             </div>
             <div className="col-lg-4 text-center text-lg-end">
-                <div className="d-inline-flex align-items-center" style={{ height: '45px' }}>
-                    <Link className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"><AiOutlineTwitter /> </Link>
-                    <Link className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"><FaFacebook /></Link>
-                    <Link className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"><AiFillLinkedin /></Link>
-                    <Link className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"><AiFillInstagram /></Link>
-                    <Link className="btn btn-sm btn-outline-light btn-sm-square rounded-circle"><AiFillYoutube /></Link>
+                <div className="d-inline-flex align-items-center gap-3" style={{ height: '45px' }}>
+                    <Link className="btn btn-sm btn-outline-light" style={{ height: '30px',width: '30px',borderRadius: '50%',display: 'flex',justifyContent: 'center',alignItems: 'center'}}><AiOutlineTwitter /> </Link>
+                    <Link className="btn btn-sm btn-outline-light" style={{ height: '30px',width: '30px',borderRadius: '50%',display: 'flex',justifyContent: 'center',alignItems: 'center'}}><FaFacebook /></Link>
+                    <Link className="btn btn-sm btn-outline-light " style={{ height: '30px',width: '30px',borderRadius: '50%',display: 'flex',justifyContent: 'center',alignItems: 'center'}}> <AiFillLinkedin /></Link>
+                    <Link className="btn btn-sm btn-outline-light" style={{ height: '30px',width: '30px',borderRadius: '50%',display: 'flex',justifyContent: 'center',alignItems: 'center'}}><AiFillInstagram /></Link>
+                    <Link className="btn btn-sm btn-outline-light" style={{ height: '30px',width: '30px',borderRadius: '50%',display: 'flex',justifyContent: 'center',alignItems: 'center'}}><AiFillYoutube /></Link>
                 </div>
             </div>
         </div>

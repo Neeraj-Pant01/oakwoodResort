@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Contact from './pages/contact/ContactUs';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
+import Services from './pages/Services/Services';
 
 
 const App = () => {
@@ -36,6 +37,8 @@ const App = () => {
       <Route path='/' element={<Homepage active={active}/>}/>
       <Route path='/about-us' element={<Aboutus />}/>
       <Route path='/contact' element={<Contact />} />
+      <Route path='/services' element={<Services/>} />
+
     </Routes>
     <Footer />
     </>

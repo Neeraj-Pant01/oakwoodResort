@@ -17,7 +17,7 @@ const CarouselComponent = () => {
                <p style={{fontSize:60,fontWeight:700}} className="section-title text-white  mb-3">Seasonal Specialties</p>
                <p  className="text-white mb-4 ">Our resort offers daily fresh products and professional yet convivial service to create a true gastronomic experience.</p>
                <div className='flex md:px-4 px-2 md:py-2 rounded-full border md:w-[60%] self-center ml-auto mr-auto bg-[white] items-center justify-between mb-4 w-[80%] py-1'>
-                <input type='text' placeholder='search here...' />
+                <input type='text' placeholder='search here...' id='input' />
                 <button className='btn custom-btn rounded-full md:px-4'>Search</button>
                </div>
                <a href="" className="btn custom-btn py-md-3 px-md-5 me-3 animated slideInLeft">VIEW ALL SERVICES</a>

@@ -44,3 +44,7 @@
     background: #FEA116;
     color: #ffffff;
   }
+input:focus{
+    border: none;
+    outline: none;
+  }

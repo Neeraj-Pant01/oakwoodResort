@@ -1,0 +1,8 @@
+.hover-state * {
+    transition: background 1s ease, color 1s ease;
+}
+
+.hover-state:hover * {
+    background: #FEA116 !important;
+    color: white !important;
+}
