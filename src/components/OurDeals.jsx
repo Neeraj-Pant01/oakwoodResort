@@ -37,8 +37,8 @@ const OurDeals = () => {
                 </div>
                 <p className="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                 <div className="d-flex justify-content-center mb-2">
-                                <a href="#" className="btn btn-m  px-3 border-end text-white" style={{background:"#FEA116",borderRadius: '30px 0 0 30px'}}>Read More</a>
-                                <a href="#" className="btn btn-m  px-3 text-white" style={{background:"#FEA116",borderRadius: '0 30px 30px 0'}}>Book Now</a>
+                                <a href="#" className="btn btn-m  px-3 border-end text-white" style={{background:"#0F172B",borderRadius: '30px 0 0 30px'}}>Read More</a>
+                                <a href="#" className="btn btn-m  px-3 text-white" style={{background:"#0F172B",borderRadius: '0 30px 30px 0'}}>Book Now</a>
                             </div>
               </div>
             </div>
@@ -67,8 +67,8 @@ const OurDeals = () => {
                 </div>
                 <p className="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                 <div className="d-flex justify-content-center mb-2">
-                                <a href="#" className="btn btn-m  px-3 border-end text-white" style={{background:"#FEA116",borderRadius: '30px 0 0 30px'}}>Read More</a>
-                                <a href="#" className="btn btn-m  px-3 text-white" style={{background:"#FEA116",borderRadius: '0 30px 30px 0'}}>Book Now</a>
+                                <a href="#" className="btn btn-m  px-3 border-end text-white" style={{background:"#0F172B",borderRadius: '30px 0 0 30px'}}>Read More</a>
+                                <a href="#" className="btn btn-m  px-3 text-white" style={{background:"#0F172B",borderRadius: '0 30px 30px 0'}}>Book Now</a>
                             </div>
               </div>
             </div>
@@ -97,8 +97,8 @@ const OurDeals = () => {
                 </div>
                 <p className="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                 <div className="d-flex justify-content-center mb-2">
-                                <a href="#" className="btn btn-m  px-3 border-end text-white" style={{background:"#FEA116",borderRadius: '30px 0 0 30px'}}>Read More</a>
-                                <a href="#" className="btn btn-m  px-3 text-white" style={{background:"#FEA116",borderRadius: '0 30px 30px 0'}}>Book Now</a>
+                                <a href="#" className="btn btn-m  px-3 border-end text-white" style={{background:"#0F172B",borderRadius: '30px 0 0 30px'}}>Read More</a>
+                                <a href="#" className="btn btn-m  px-3 text-white" style={{background:"#0F172B",borderRadius: '0 30px 30px 0'}}>Book Now</a>
                             </div>
               </div>
             </div>

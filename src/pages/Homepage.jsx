@@ -1,11 +1,9 @@
-import React from 'react'
-import CarouselComponent from '../components/CarousalComponent'
 import About from '../components/About'
 import OurDeals from '../components/OurDeals'
 import LuxuryLiving from '../components/LuxuryLiving'
 import Services from '../components/Services'
-import Testimonial from '../components/Testimonials'
-import Team from '../components/Team'
+import ClientTestimonials from '../components/ClientTestimonials'
+
 
 const Homepage = ({active}) => {
   return (
@@ -15,7 +13,7 @@ const Homepage = ({active}) => {
     <Services />
     <LuxuryLiving />
     <OurDeals />
-    <Testimonial />
+    {/* <ClientTestimonials /> */}
     {/* <Team /> */}
     </>
   )

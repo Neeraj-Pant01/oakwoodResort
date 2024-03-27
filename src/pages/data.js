@@ -2,7 +2,7 @@ export const revData = [
     {
         username:"user01",
         rev:"Oakwood Resort is the perfect getaway for nature lovers. The trekking trails were breathtaking, and the bird watching was incredible. The resort's luxurious amenities and incredible hospitality made our stay unforgettable.",
-        picture:"https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg"
+        picture:"img/a.jpg"
     },
     {
         username:"user02",
