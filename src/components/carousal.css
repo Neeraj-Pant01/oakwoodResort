@@ -48,3 +48,8 @@ input:focus{
     border: none;
     outline: none;
   }
+  @media screen and (max-width: 760px) {
+    .iframe-container {
+      height: 55vh;
+    }
+  }
